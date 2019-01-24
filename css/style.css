@@ -1,0 +1,148 @@
+body {
+    font-family: sans-serif;
+    background:url("../img/background.png") no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.heading {
+    margin: 50px 0;
+}
+
+.logo-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.logo-link:hover .title{
+    color: #f26522;
+}
+
+.logo-link-img {
+    margin-right: 5px;
+    float: left;
+    display: block;
+}
+
+
+.logo-link:hover .logo-link-img {
+    content: url(../img/logo-orange.png);
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.text-small {
+    font-size: 18px;
+    float: left;
+
+}
+
+.header-contacts {
+    float: right;
+}
+
+.header-contacts-text {
+    color: white;
+    font-size: 18px;
+    text-align: right;
+    margin: auto;
+}
+
+.tour-item {
+    float: left;
+    text-align: center;
+    margin-right: 69px;
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.tour-item-third {
+    margin-right: 0;
+}
+
+.tour-item-text {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+.tour-item:hover .tour-item-text{
+    color: #f26522;
+    transition: 1s;
+}
+
+.tour-item-details {
+    opacity: 0;
+    width: 100%;
+    padding: 15px 0;
+    background: #f26522;
+    position: absolute;
+    bottom: 40px;
+}
+
+.tour-item:hover .tour-item-details{
+    transition: 1s;
+    opacity: inherit;
+}
+
+.details-price {
+    color: #ffffff;
+    font-size: 20px;
+    margin: auto;
+display: inline-block;
+    width: 60px;
+    float: left;
+}
+
+.details-prefix-word {
+    font-size: 10px;
+    float: left;
+    margin-left: 21px;
+}
+
+.details-prefix {
+    margin-left: 21px;
+}
+
+.tour-item-details-link {
+    float:right;
+    position: relative;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin: 15px 25px 0 0;
+}
+
+.tour-item-details-link::after {
+    content: ">";
+    position: absolute;
+    right: -15px;
+    top: 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-text {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.clearfix::after {
+    content: " ";
+    display:block;
+    clear: both;
+}
+
